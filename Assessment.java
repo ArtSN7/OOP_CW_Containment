@@ -13,4 +13,26 @@ public class Assessment {
         System.out.println("Max Marks: " + maxMarks);
     }
 
+    // CHAT GPT GETTERS AND SETTERS
+
+    // Getter for assessmentTitle
+    public String getAssessmentTitle() {
+        return assessmentTitle;
+    }
+
+    // Setter for assessmentTitle
+    public void setAssessmentTitle(String assessmentTitle) {
+        this.assessmentTitle = assessmentTitle;
+    }
+
+    // Getter for maxMarks
+    public int getMaxMarks() {
+        return maxMarks;
+    }
+
+    // Setter for maxMarks
+    public void setMaxMarks(int maxMarks) {
+        this.maxMarks = maxMarks;
+    }
+
 }
